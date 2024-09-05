@@ -6,7 +6,7 @@
 
 **Blog_app** is a web application built using Django, HTML, and CSS that allows users to create, edit, and manage blog posts.
 The application includes features like user authentication, post creation, editing, deletion, and viewing. Users can also 
-view posts by other users.
+view posts of other users.
 
 ## Features
 
