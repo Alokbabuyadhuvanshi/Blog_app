@@ -35,10 +35,10 @@ def edit_blog(request , blog_id):
             blog = form.save(commit = false) # type: ignore
             blog.user = request.user
             blog.save()
-            return redirect('show_blog')
+            return redirect('show_blog',blog_id=blog.id)
     else:
         form = blogForm(instance = blog)
-    return render(request,show_blog.html,{'form':form})
+    return render(request,create_blog.html,{'form':form})
 
 
 @login_required
