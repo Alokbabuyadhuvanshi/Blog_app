@@ -8,6 +8,8 @@
 The application includes features like user authentication, post creation, editing, deletion, and viewing. Users can also 
 view posts of other users.
 
+ckeckout the demonstration [video](https://drive.google.com/file/d/15mXRau-jYz3z980YsvYTWyooZzfvNhxX/view?usp=sharing)
+
 ## Features
 
 - **User Authentication**
