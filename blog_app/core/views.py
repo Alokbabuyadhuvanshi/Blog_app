@@ -46,7 +46,7 @@ def delete_blog(request, blog_id):
     blog = get_object_or_404(Blog, pk=blog_id,user =request.user)
     if request.method == "POST":
         blog.delete()
-        return redirect('show_blog')
+        return redirect('home')
     return render(request,'blog_conform_delete.html',{'blog':blog})
 
 def register(request):
