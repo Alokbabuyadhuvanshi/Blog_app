@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block main %}
+<link rel="stylesheet" href="{% static 'login.css' %}">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card border-0 custom-shadow p-3 mb-5 rounded">
+                    <h2 class="text-center mb-4">Register</h2>
+                    <form method="post" class="needs-validation" novalidate>
+                    {% csrf_token %}
+                    <div class="form-group">
+                        {{ form.username.label_tag }}
+                        {{ form.username }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.email.label_tag }}
+                        {{ form.email }}
+                    </div>
+                    <div class="password-requirements">
+                        <ul class="password-requirements-list" style="padding-left: 30px; font-size: small; margin-bottom:0px">
+                            <li>Your password must contain at least 8 characters.</li>
+                            <li>It should include both uppercase and lowercase letters.</li>
+                        </ul>
+                    </div>
+                    <div class="form-group">
+                        {{ form.password1.label_tag }}
+                        {{ form.password1 }}
+                    </div>
+                    <div class="form-group">
+                        {{ form.password2.label_tag }}
+                        {{ form.password2 }}
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary btn-block mt-3 px-5">Register</button>
+                    </div>
+                    <p class="text-center">Already have an account. <a href="{% url 'login' %}">Login here</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% block topnev %}
+    
+    {% endblock %}
+{% endblock %}
