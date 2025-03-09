@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-=mr!8kl&dsa=_qw6u&7b1m#lc6jbsbddkp@80*j*bu94*ap06%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['blog-app-usxc.onrender.com, 'localhost', '127.0.0.1']
 
 TIME_ZONE = 'Asia/Kolkata'
 
