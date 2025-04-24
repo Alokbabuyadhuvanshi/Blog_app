@@ -8,6 +8,7 @@
 The application includes features like user authentication, post creation, editing, deletion, and viewing. Users can also 
 view posts of other users.
 
+🔗 [Live Demo](https://atheal.onrender.com) • 👨‍💻 [Developer](https://github.com/Alokbabuyadhuvanshi)
 
 ## Features
 
