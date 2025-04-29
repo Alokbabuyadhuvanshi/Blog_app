@@ -132,6 +132,5 @@ For any queries, please contact:
   - LinkedIn: [Alok Babu](https://www.linkedin.com/in/alok-babu-8a7619269)
   - GitHub: [Alok Babu](https://github.com/Alokbabuyadhuvanshi)
 
-## **checkout the demonstration [video](https://drive.google.com/file/d/15mXRau-jYz3z980YsvYTWyooZzfvNhxX/view?usp=sharing)**
 ---
 
